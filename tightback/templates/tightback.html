@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<img id="test" src = ''>
+<script src="/static/js/jquery-3.1.1.min.js"></script>
+<script>
+    $.get(
+        {
+            url:'/pic',
+            data:{
+                a:"a",
+            },
+            // async: false, // 同步请求
+            success:function (callback) {
+                var obj = document.getElementById("test");
+                obj.src = "data:image/png;base64,"+ callback;
+            },
+    })
+</script>
+</body>
+</html>
