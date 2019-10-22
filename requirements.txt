@@ -4,7 +4,7 @@ constantly==15.1.0
 coreapi==2.3.3
 coreschema==0.0.4
 cssselect==1.0.3
-Django==2.2.2
+Django==2.2.4
 django-rest-swagger==2.2.0
 djangorestframework==3.9.4
 incremental==17.5.0
