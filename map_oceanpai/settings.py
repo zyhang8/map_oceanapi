@@ -24,7 +24,7 @@ SECRET_KEY = 'dj=81f8!d$@@87kpeb2n2@&z2!mi5#rt_v0w+^5mz2xixz$v8-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0:8000', '192.168.168.8']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0:8000', '192.168.169.241', '192.168.169.184', '192.168.169.251']
 
 # Application definition
 
@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tightback',
+    'ice_ocean',
 ]
 
 MIDDLEWARE = [
@@ -53,7 +53,7 @@ ROOT_URLCONF = 'map_oceanpai.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'tightback/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'ice_ocean/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -163,4 +163,4 @@ TEMPLATES = [
 ]
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'tightback/media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'ice_ocean/media')

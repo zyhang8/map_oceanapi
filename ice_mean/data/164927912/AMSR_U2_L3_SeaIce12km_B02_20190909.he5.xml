@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GranuleMetaDataFile SYSTEM "http://ecsinfo.gsfc.nasa.gov/ECSInfo/ecsmetadata/dtds/DPL/ECS/ScienceGranuleMetadata.dtd">
+<GranuleMetaDataFile>
+    <DTDVersion>1.0</DTDVersion>
+    <DataCenterId>NSIDC</DataCenterId>
+    <GranuleURMetaData>
+        <GranuleUR>SC:AU_SI12.001:164927912</GranuleUR>
+        <DbID>164927912</DbID>
+        <InsertTime>2019-09-11 00:04:50.304</InsertTime>
+        <LastUpdate>2019-09-11 00:04:50.304</LastUpdate>
+        <CollectionMetaData>
+            <ShortName>AU_SI12</ShortName>
+            <VersionID>1</VersionID>
+        </CollectionMetaData>
+        <DataFiles>
+            <DataFileContainer>
+                <DistributedFileName>AMSR_U2_L3_SeaIce12km_B02_20190909.he5</DistributedFileName>
+                <FileSize>124032912</FileSize>
+                <ChecksumType>CKSUM</ChecksumType>
+                <Checksum>39673511</Checksum>
+                <ChecksumOrigin>DPLIngst</ChecksumOrigin>
+            </DataFileContainer>
+        </DataFiles>
+        <ECSDataGranule>
+            <SizeMBECSDataGranule>118.287</SizeMBECSDataGranule>
+            <LocalGranuleID>AMSR_U2_L3_SeaIce12km_B02_20190909.he5</LocalGranuleID>
+            <ProductionDateTime>2019-09-10 06:50:55</ProductionDateTime>
+        </ECSDataGranule>
+        <PGEVersionClass>
+            <PGEVersion>02</PGEVersion>
+        </PGEVersionClass>
+        <RangeDateTime>
+            <RangeEndingTime>00:02:48.601000</RangeEndingTime>
+            <RangeEndingDate>2019-09-10</RangeEndingDate>
+            <RangeBeginningTime>00:08:58.304000</RangeBeginningTime>
+            <RangeBeginningDate>2019-09-09</RangeBeginningDate>
+        </RangeDateTime>
+        <SpatialDomainContainer>
+            <HorizontalSpatialDomainContainer>
+                <BoundingRectangle>
+                    <WestBoundingCoordinate>-180.0</WestBoundingCoordinate>
+                    <NorthBoundingCoordinate>89.24</NorthBoundingCoordinate>
+                    <EastBoundingCoordinate>180.0</EastBoundingCoordinate>
+                    <SouthBoundingCoordinate>-89.24</SouthBoundingCoordinate>
+                </BoundingRectangle>
+            </HorizontalSpatialDomainContainer>
+        </SpatialDomainContainer>
+        <MeasuredParameter>
+            <MeasuredParameterContainer>
+                <ParameterName>Sea Ice Parameters</ParameterName>
+                <QAStats>
+                    <QAPercentMissingData>0</QAPercentMissingData>
+                </QAStats>
+                <QAFlags>
+                    <AutomaticQualityFlag>Passed</AutomaticQualityFlag>
+                    <AutomaticQualityFlagExplanation>Program Execution Completed</AutomaticQualityFlagExplanation>
+                    <OperationalQualityFlag>Not Investigated</OperationalQualityFlag>
+                    <OperationalQualityFlagExplanation>Currently not used</OperationalQualityFlagExplanation>
+                    <ScienceQualityFlag>Passed</ScienceQualityFlag>
+                    <ScienceQualityFlagExplanation>Mask files are recent</ScienceQualityFlagExplanation>
+                </QAFlags>
+            </MeasuredParameterContainer>
+        </MeasuredParameter>
+        <PSAs>
+            <PSA>
+                <PSAName>identifier_product_doi</PSAName>
+                <PSAValue>10.5067/RA1MIJOYPK3P</PSAValue>
+            </PSA>
+            <PSA>
+                <PSAName>identifier_product_doi_authority</PSAName>
+                <PSAValue>http://dx.doi.org</PSAValue>
+            </PSA>
+        </PSAs>
+        <InputGranule>
+            <InputPointer>GW1AM2_201909090008_175A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090058_191D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090147_191A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090237_207D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090326_207A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090416_223D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090505_223A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090555_006D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090644_006A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090734_022D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090823_022A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909090912_038D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091002_038A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091051_054D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091141_054A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091230_070D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091320_070A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091409_086D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091458_086A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091548_102D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091637_102A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091727_118D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091816_118A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091906_134D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909091955_134A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909092045_150D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909092134_150A_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909092223_166D_L1SGRTBR_2220220.h5</InputPointer>
+            <InputPointer>GW1AM2_201909092313_166A_L1SGRTBR_2220220.h5</InputPointer>
+        </InputGranule>
+        <PHProduct>
+            <PHGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:19:PH:PH.001:164927914</PHGranuleId>
+        </PHProduct>
+        <QAProduct>
+            <QAGranuleId>UR:10:DsShESDTUR:UR:15:DsShSciServerUR:15:[NSIDC:DSSDSRV]:19:QA:QA.001:164927913</QAGranuleId>
+        </QAProduct>
+    </GranuleURMetaData>
+</GranuleMetaDataFile>
+
+
+

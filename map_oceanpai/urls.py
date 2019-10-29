@@ -17,15 +17,15 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.urls import path
 
-from tightback import views
+from ice_ocean import views as ice_ocean
+from ice_mean import views as ice_mean
 
 
-app_name = 'tightback'
+app_name = 'ice_ocean'
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # url('^picture/', include('tightback.urls', namespace='tightback')),
-    url(r'^pic/(?P<para1>.*)/(?P<para2>.*)/(?P<para3>.*)/(?P<para4>.*)/$', views.gen_mat, name="picture"),
-    # url(r'^pic/$', views.gen_mat, name="picture"),
+    url(r'^ice_ocean/latitude1/(.+)/latitude2/(.+)/longitude1/(.+)/longitude2/(.+)/$', ice_ocean.gen_map, name="ice_oceanapi"),
+    url(r'^ice_mean/latitude1/(.+)/latitude2/(.+)/longitude1/(.+)/longitude2/(.+)/$', ice_mean.get_map, name="ice_mean"),
 ]
